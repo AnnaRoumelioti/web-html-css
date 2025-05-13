@@ -1,0 +1,20 @@
+ul >li {
+  list-style: square;
+}
+
+.title-color {
+  color: rgb(37, 37, 37);
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.image {
+  height: 200px;
+  width: auto;
+}
+
+@media (max-width: 580px) {
+   .border {
+    border: 0px solid !important
+  }
+}
